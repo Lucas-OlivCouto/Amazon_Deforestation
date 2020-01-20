@@ -8,20 +8,20 @@ theme_set(theme_bw())
 
 #Setting unique paths
 Andrea <- '/Users/andreaquevedo/'
-plots<-'/Users/andreaquevedo/Documents/Georgetown/Fall_2019/Data\ Visualization\ for\ Data\ Science/Tutorial'
+plots<-'/Users/andreaquevedo/Documents/Georgetown/Fall_2019/Data_Visualization_for_Data_Science/Brazil_Deforestation'
 
 
 
 #### LOADING SHAPEFILES ####
 
 ### PRODES ###
-PRODES_path<- paste(Andrea,"Downloads/PRODES_deforestation/", sep="")
+PRODES_path<- paste(Andrea,"PRODES_deforestation/", sep="")
 PRODES_shape <-"PRODES_deforestation.shp"
 PRODES_file <- paste(PRODES_path, PRODES_shape, sep="")
 PRODES_shp <- read_sf(PRODES_file)
 
 ### BRAZIL STATES ###
-BRM_path<- paste(Andrea,"Downloads/Brazil/", sep="")
+BRM_path<- paste(Andrea,"Brazil/", sep="")
 BRM_shape <-"Brazil_Admin_1.shp"
 BRM_file <- paste(BRM_path, BRM_shape, sep="")
 BRM_shp <- read_sf(BRM_file)
