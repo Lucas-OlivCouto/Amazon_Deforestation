@@ -7,7 +7,7 @@ require(ggrepel)
 theme_set(theme_bw())
 
 #Setting unique paths
-Andrea <- '/Users/andreaquevedo/'
+Andrea <- '/Users/andreaquevedo/Documents/Georgetown/Fall_2019/Data_Visualization_for_Data_Science/Brazil_Deforestation/'
 plots<-'/Users/andreaquevedo/Documents/Georgetown/Fall_2019/Data_Visualization_for_Data_Science/Brazil_Deforestation'
 
 
