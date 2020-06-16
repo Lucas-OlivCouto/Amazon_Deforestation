@@ -2,6 +2,10 @@
 
 Maps of deforestation in states covering the Amazon forest using the sf package in R
 
+## Map for 2015 
+
+![](Deforestation_Amazon_15.png)
+
 ## Data
 
 Brazil Shapefiles: https://www.arcgis.com/home/item.html?id=1e45bf47c2f542cda9d507ce38ba354a 
